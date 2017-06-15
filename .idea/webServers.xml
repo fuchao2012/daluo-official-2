@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="378fd0b6-0ea3-4c7b-8783-8e8078de55a8" name="daluobroker" url="http://www.daluobroker.com">
+        <fileTransfer host="59.110.213.20" port="22" rootFolder="/opt/nginx/broker" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="380bbe60-6995-4870-8c1b-49f7f942274e" name="daluofinance" url="http://www.daluofinance.com">
+        <fileTransfer host="59.110.213.20" port="22" rootFolder="/opt/nginx/finance" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
