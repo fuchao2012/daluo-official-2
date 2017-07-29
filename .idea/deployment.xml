@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="daluobroker">
+  <component name="PublishConfigData" autoUpload="Always" serverName="daluobroker" uploadOnCheckin="378fd0b6-0ea3-4c7b-8783-8e8078de55a8">
     <serverData>
       <paths name="daluobroker">
         <serverdata>
           <mappings>
-            <mapping deploy="/opt/nginx/broker" local="$PROJECT_DIR$/" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$/" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="daluofinance">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="daluotech">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="daluobroker" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

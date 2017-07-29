@@ -18,6 +18,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="f9c2c41e-bced-47c5-bd24-944d3c16c87d" name="daluotech" url="http://www.daluofinance.com">
+        <fileTransfer host="59.110.213.20" port="22" rootFolder="/opt/nginx/tech" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
